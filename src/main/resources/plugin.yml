@@ -1,0 +1,7 @@
+name: LocateFilter
+version: '${project.version}'
+main: work.saladbowl.mc.locatefilter.LocateFilter
+api-version: '1.20'
+authors: [saladbowl_dev]
+description: This is filter of Country by IP Address access to Minecraft Server.
+website: saladbowl.work
