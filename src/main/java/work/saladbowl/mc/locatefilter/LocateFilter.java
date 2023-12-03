@@ -15,15 +15,8 @@ public class LocateFilter extends JavaPlugin implements Listener {
 
         saveDefaultConfig();
 
-        // イベントリスナーを登録
+        // Register event listener
         getServer().getPluginManager().registerEvents(this, this);
-
-        getLogger().info("LocateFilter plugin has been enabled!");
-    }
-
-    @Override
-    public void onDisable() {
-        getLogger().info("LocateFilter plugin has been disabled!");
     }
 
     @EventHandler
